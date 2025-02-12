@@ -51,6 +51,14 @@ t.right(90)
 
 t.pendown() #snowflake 2
 t.forward(100)
+t.back(50)
+t.left(90)
+t.forward(60)
+t.back(30)
+t.right(65) #
+t.forward(25)
+t.back()
+
 
 #last line of code
 wn.exitonclick()
