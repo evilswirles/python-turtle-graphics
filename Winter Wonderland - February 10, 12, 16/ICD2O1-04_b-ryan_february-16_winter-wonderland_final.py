@@ -62,6 +62,32 @@ t.forward(55)
 t.back(55)
 t.back(55)
 
+t.penup()
+t.forward(230)
+t.right(40)
+
+t.pendown() #snowflake 3
+t.forward(30)
+t.right(90)
+t.forward(30)
+t.right(90)
+t.forward(30)
+t.right(90)
+t.forward(30)
+t.right(90)
+t.forward(30)
+t.left(50)
+t.forward(40)
+
+
+t.penup() #continued 3
+t.back(80)
+
+t.pendown()
+t.back(40)
+t.forward(40)
+t.right(47)
+
 
 #last line of code
 wn.exitonclick()
