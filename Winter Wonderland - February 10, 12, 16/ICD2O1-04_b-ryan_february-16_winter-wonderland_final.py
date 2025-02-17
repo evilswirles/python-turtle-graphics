@@ -54,11 +54,6 @@ t.forward(100)
 t.back(50)
 t.left(90)
 t.forward(60)
-t.back(30)
-t.right(65) #
-t.forward(18)
-t.back(18)
-t.right()
 
 
 #last line of code
