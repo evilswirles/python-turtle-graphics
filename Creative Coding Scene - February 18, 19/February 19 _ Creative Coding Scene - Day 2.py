@@ -37,12 +37,15 @@ t.forward(120)
 t.left(90)
 
 t.pendown() #start of cottage house
+t.fillcolor("#B39B84") #door frame fill
+t.begin_fill() #cottage front fill
 t.pencolor("#C38560")
 t.forward(200)
 t.right(90)
 t.forward(260) #
 t.right(90)
 t.forward(200)
+t.end_fill() #cottage front fill
 
 t.pencolor("green")
 t.right(90)
@@ -67,27 +70,13 @@ t.end_fill() #end of door frame fill
 t.penup() #doorknob
 t.forward(12)
 t.pendown() #start of circle of doorknob
-t.circle(5)
+t.circle(3) # doorknob
 
 t.penup()
 t.forward(137)
 t.left(90)
 t.forward(10)
 t.left(90)
-
-t.pencolor("pink") #tiling pen colour
-t.pendown() #start of tiling
-t.forward(109)
-
-t.penup()
-t.forward(40)
-
-t.pendown()
-t.forward(110)
-t.left(90)
-
-t.penup()
-t.forward
 
 
 
@@ -96,11 +85,16 @@ sun.forward(365)
 sun.left(90)
 sun.forward(300)
 
-t.fillcolor("#FFFF00") #yellow sun fill
-t.begin_fill()
+sun.pencolor("yellow") #yellow sun pen colour
+sun.fillcolor("#FFFF00") #yellow sun fill
+sun.begin_fill()
 sun.pendown() #start of yellow sun
 sun.circle(50)
-t.end_fill() #end of yellow sun fill
+sun.end_fill() #end of yellow sun fill
+sun.right(90)
+sun.right(90)
+sun.right(90)
+
 
 #last line of code
 wn.exitonclick()
