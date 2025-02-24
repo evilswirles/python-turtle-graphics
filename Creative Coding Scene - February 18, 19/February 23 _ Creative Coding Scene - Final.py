@@ -213,11 +213,92 @@ flag.forward(300)
 flag.back(300)
 flag.left(90)
 
-flag.end_fill() 
+flag.end_fill()
 
+flag.left(90)
+flag.left(90)
+flag.forward(15)
+flag.left(90)
+flag.forward(25) #30
+flag.right(90)
 
-# flag.pencolor("red") #TODO PEN-COLOUR
+flag.pencolor("red") #flag pencolour, red
+flag.forward(25) #red portion
+flag.pencolor("white") #flag pencolour, red
+flag.forward(25) #white portion
+flag.pencolor("red") #flag pencolour, red
+flag.forward(25) #red portion
+flag.left(90)
+flag.forward(35) #middle
+flag.left(90)
+flag.forward(25)
+flag.pencolor("white")
+flag.forward(25)
+flag.pencolor("red") #flag pencolour, red
+flag.forward(25)
+flag.left(90)
+flag.forward(35)
+flag.back(35)
+flag.right(90)
+flag.right(90)
+flag.right(90)
 
+flag.forward(25)
+flag.pencolor("white")
+flag.right(90)
+
+flag.fillcolor("white") #white fill of flag
+flag.begin_fill()
+flag.forward(35)
+flag.left(90)
+flag.forward(25)
+flag.left(90)
+flag.forward(35)
+flag.left(90)
+flag.forward(25)
+flag.end_fill()
+
+flag.fillcolor("red") #red fill of flag 2
+flag.begin_fill()
+flag.pencolor("red")
+flag.left(90)
+flag.forward(35)
+flag.right(90)
+flag.forward(25)
+flag.right(90)
+flag.forward(35)
+flag.right(90)
+flag.end_fill()
+
+flag.penup()
+flag.forward(50)
+
+flag.pendown() #red fill of flag 1
+flag.fillcolor("red") #red fill of flag 2
+flag.begin_fill()
+flag.right(90)
+flag.forward(35)
+flag.left(90)
+flag.forward(25)
+flag.left(90)
+flag.forward(35)
+flag.left(90)
+flag.forward(25)
+flag.end_fill()
+
+flag.penup()
+flag.pencolor("white")
+flag.forward(15)
+flag.left(90)
+flag.forward(17.5)
+
+flag.pendown()
+flag.fillcolor("red")
+flag.begin_fill()
+flag.pencolor("red")
+flag.circle(3) #center of flag
+flag.end_fill()
+flag.penup()
 
 
 
